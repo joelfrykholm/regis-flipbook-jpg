@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flipbook</title>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="turn.js"></script>
+  <style>
+    body {
+      background: #4f4f4f;
+      display: flex;
+      justify-content: center;
+      padding: 100px;
+    }
+    #flipbook {
+      width: 1200;
+      height: 675;
+    }
+    .page {
+      width: 600;
+      height: 675;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="flipbook">
+    <div class="page turn-page p1" style="background-image: url('page1.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p2" style="background-image: url('page2.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p3" style="background-image: url('page3.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p4" style="background-image: url('page4.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p5" style="background-image: url('page5.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p6" style="background-image: url('page6.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p7" style="background-image: url('page7.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p8" style="background-image: url('page8.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p9" style="background-image: url('page9.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p10" style="background-image: url('page10.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p11" style="background-image: url('page11.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p12" style="background-image: url('page12.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p13" style="background-image: url('page13.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p14" style="background-image: url('page14.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p15" style="background-image: url('page15.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p16" style="background-image: url('page16.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p17" style="background-image: url('page17.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p18" style="background-image: url('page18.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p19" style="background-image: url('page19.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p20" style="background-image: url('page20.jpg'); width: 600px; height: 675px;"></div>
+<div class="page turn-page p21" style="background-image: url('page21.jpg'); width: 600px; height: 675px;"></div>
+
+  </div>
+  <script>
+    $('#flipbook').turn({
+      width: 1200,
+      height: 675,
+      autoCenter: true
+    });
+  </script>
+</body>
+</html>
